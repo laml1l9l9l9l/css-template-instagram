@@ -2,11 +2,54 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color: #FAFAFA;
+	font-family: Liberation Sans;
+	font-size: 0.9rem;
 }
 
 .header{
 	background-color: #FFFFFF;
 	display: grid;
-	grid-template-columns: auto auto auto;
-	padding: 1% 0;
+	grid-template-columns: 20% 60% 20%;
+	padding: 0.5rem 0;
+	border-bottom: 1px solid #dbdbdb;
+	position: fixed;
+	width: 100%;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	padding-top: 5rem;
+}
+
+.wrapper{
+	grid-column: 2/3;
+	display: grid;
+	grid-template-columns: 70% 30%;
+}
+
+.header-main{
+	background-color: #FFFFFF;
+	border: 1px solid #dbdbdb;
+	padding: 1rem 0;
+}
+
+.header-main .content{
+	display: flex;
+	align-items: center;
+	margin: 0 2rem;
+}
+
+.content-main{
+	background-color: #FFFFFF;
+	margin-top: 2rem;
+}
+
+.main-right{
+	margin-left: 15%;
+}
+
+.main-right .fixed{
+	position: fixed;
+	width: 15%;
 }

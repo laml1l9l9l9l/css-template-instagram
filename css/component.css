@@ -1,5 +1,19 @@
 input{
 	background-color: #FAFAFA;
+	text-align: center;
+}
+
+input:focus{
+	text-align: left;
+}
+
+.input-search{
+	padding: 0.4rem;
+	border: 1px solid #dbdbdb;
+}
+
+.search{
+	margin: auto 0;
 }
 
 a{
@@ -14,6 +28,13 @@ a{
 
 .logo{
 	flex-grow: 1;
+	position: relative;
+}
+
+.logo img{
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .icon{
@@ -36,4 +57,114 @@ a{
 .avatar-header{
 	width: 2em;
 	height: 2em;
+}
+
+.avatar-header-main{
+	width: 4em;
+	height: 4em;
+}
+
+
+.header-main .content .story{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.information{
+	display: flex;
+	align-items: center;
+	padding: 1rem 0;
+}
+
+.information a .avatar{
+	width: 4em;
+	height: 4em;
+}
+
+.information .detail{
+	margin-left: 1rem;
+}
+
+.information .detail p{
+	margin: 0;
+}
+
+.header-post{
+	padding: 1rem;
+	border: 1px solid #dbdbdb;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-post a img{
+	width: 3rem;
+	height: 3rem;
+}
+
+.header-post .left{
+	display: flex;
+	align-items: center;
+	font-size: 0.9rem;
+}
+
+
+.header-post .left > b{
+	margin-left: 1rem;
+}
+
+
+.content-post img{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+.interactive-post{
+	border: 1px solid #dbdbdb;
+}
+
+.text-small{
+	color: #a0a0a0;
+}
+
+.recommend-friend{
+	padding: 1rem 0;
+}
+
+.recommend-friend .title{
+	display: flex;
+	justify-content: space-between;
+}
+
+.recommend-friend .friends{
+	margin: 1rem 0;
+}
+
+.recommend-friend .friends .friend{
+	display: flex;
+	align-items: center;
+	padding: 0.5rem 0;
+}
+
+.recommend-friend .friends .friend > .username{
+	flex-grow: 1;
+	padding-left: 0.5rem;
+}
+
+.recommend-friend .friends .friend > .follow{
+	color: #0095f6;
+}
+
+.other{
+	color: #a0a0a0;
+	font-size: 0.7rem;
+	margin-top: 1rem;
+}
+
+.other > *{
+	color: #a0a0a0;
+	line-height: 1.6
 }
